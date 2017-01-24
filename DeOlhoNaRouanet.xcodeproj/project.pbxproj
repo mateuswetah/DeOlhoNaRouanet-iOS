@@ -20,7 +20,7 @@
 		3F40B12D1DEF942500648E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F40B12B1DEF942500648E88 /* LaunchScreen.storyboard */; };
 		3F40B1351DEF95AD00648E88 /* SegmentosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40B1341DEF95AD00648E88 /* SegmentosTableViewController.swift */; };
 		3F40B1371DEF95CF00648E88 /* EstadosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40B1361DEF95CF00648E88 /* EstadosTableViewController.swift */; };
-		3F40B13C1DEF97DC00648E88 /* FiltrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40B13B1DEF97DC00648E88 /* FiltrosViewController.swift */; };
+		3F40B13C1DEF97DC00648E88 /* FiltrosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40B13B1DEF97DC00648E88 /* FiltrosTableViewController.swift */; };
 		3F40B13E1DEF97F700648E88 /* OrdemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40B13D1DEF97F700648E88 /* OrdemViewController.swift */; };
 		3F40B1441DEF990C00648E88 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40B1431DEF990C00648E88 /* InfoViewController.swift */; };
 		3F40B1461DEF997100648E88 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40B1451DEF997100648E88 /* SobreViewController.swift */; };
@@ -50,7 +50,7 @@
 		3F40B12E1DEF942500648E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F40B1341DEF95AD00648E88 /* SegmentosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentosTableViewController.swift; sourceTree = "<group>"; };
 		3F40B1361DEF95CF00648E88 /* EstadosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstadosTableViewController.swift; sourceTree = "<group>"; };
-		3F40B13B1DEF97DC00648E88 /* FiltrosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltrosViewController.swift; sourceTree = "<group>"; };
+		3F40B13B1DEF97DC00648E88 /* FiltrosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltrosTableViewController.swift; sourceTree = "<group>"; };
 		3F40B13D1DEF97F700648E88 /* OrdemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdemViewController.swift; sourceTree = "<group>"; };
 		3F40B1431DEF990C00648E88 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		3F40B1451DEF997100648E88 /* SobreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 			children = (
 				3F40B1341DEF95AD00648E88 /* SegmentosTableViewController.swift */,
 				3F40B1361DEF95CF00648E88 /* EstadosTableViewController.swift */,
-				3F40B13B1DEF97DC00648E88 /* FiltrosViewController.swift */,
+				3F40B13B1DEF97DC00648E88 /* FiltrosTableViewController.swift */,
 				3F40B13D1DEF97F700648E88 /* OrdemViewController.swift */,
 				3F40B1431DEF990C00648E88 /* InfoViewController.swift */,
 				3F40B1451DEF997100648E88 /* SobreViewController.swift */,
@@ -304,7 +304,7 @@
 				3F40B14C1DEF9A6000648E88 /* EstadosTableViewCell.swift in Sources */,
 				3F40B1371DEF95CF00648E88 /* EstadosTableViewController.swift in Sources */,
 				3F40B14E1DEF9C1100648E88 /* ListaProjetosTableViewController.swift in Sources */,
-				3F40B13C1DEF97DC00648E88 /* FiltrosViewController.swift in Sources */,
+				3F40B13C1DEF97DC00648E88 /* FiltrosTableViewController.swift in Sources */,
 				3F3AA0CB1DF0DD920040A7E6 /* Proponente.swift in Sources */,
 				3F40B1281DEF942500648E88 /* DeOlhoNaRouanet.xcdatamodeld in Sources */,
 				2761C30E1E2E37F60030EE8F /* Estados.swift in Sources */,

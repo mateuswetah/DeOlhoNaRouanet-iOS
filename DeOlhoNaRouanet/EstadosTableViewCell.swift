@@ -17,15 +17,29 @@ class EstadosTableViewCell: UITableViewCell {
     
     @IBOutlet weak var estadoCheckImageView: UIImageView!
     
+    var indice:Int = 0
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
+        if var estadosAtivos = NSUserDefaults().arrayForKey("estados") as? [Bool] {
+            
+            if (estadosAtivos[indice]) {
+                estadoCheckImageView.image = UIImage(named: "check_off")
+                estadosAtivos[indice] = false
+            } else {
+                estadoCheckImageView.image = UIImage(named: "check")
+                estadosAtivos[indice] = true
+            }
+            
+            NSUserDefaults().setObject(estadosAtivos, forKey: "estados")
+        }
     }
 
 }

@@ -35,6 +35,12 @@ class ProjetoInfoTableViewController: UITableViewController {
     
     @IBOutlet weak var municipioLabel: UILabel!
     @IBOutlet weak var situaçãoLabel: UILabel!
+    @IBAction func abrirLinkProjeto(sender: AnyObject) {
+        
+        if let url = NSURL(string: "http://novosalic.cultura.gov.br/verprojetos?idPronac=" + projeto.PRONAC!) {
+            UIApplication.sharedApplication().openURL(url)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

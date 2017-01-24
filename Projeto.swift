@@ -100,5 +100,5 @@ class Projeto: Mappable {
         
         return nomeIcone
     }
-    
+
 }
