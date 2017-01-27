@@ -224,7 +224,6 @@ class ListaProjetosTableViewController: UITableViewController, UISearchBarDelega
         // Pass the selected object to the new view controller.
     
         if segue.identifier == "mostrarInfoDoProjeto" {
-            
             if let projetoInfoViewController = segue.destinationViewController as? ProjetoInfoTableViewController {
                 if let index = tableView.indexPathForSelectedRow {
                     let projeto = self.projetos[index.row]
@@ -234,6 +233,15 @@ class ListaProjetosTableViewController: UITableViewController, UISearchBarDelega
                 }
                 
             }
+        }
+    }
+    
+    // O usuário só pode ir apra a otura tela caso não estejam sendo carregados projetos, para evitar nils
+    override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
+        if (self.carregandoProjetos) {
+            return false
+        } else {
+            return true
         }
     }
     
